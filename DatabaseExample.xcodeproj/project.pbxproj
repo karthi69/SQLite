@@ -15,6 +15,22 @@
 		38625CDD1EB3CC0200450C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38625CDB1EB3CC0200450C4E /* LaunchScreen.storyboard */; };
 		38625CE81EB3CC0200450C4E /* DatabaseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625CE71EB3CC0200450C4E /* DatabaseExampleTests.m */; };
 		38625CF31EB3CC0200450C4E /* DatabaseExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625CF21EB3CC0200450C4E /* DatabaseExampleUITests.m */; };
+		38625D021EB3D01700450C4E /* SQLiteManupulateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625D011EB3D01700450C4E /* SQLiteManupulateViewController.m */; };
+		38625D051EB3DA1100450C4E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38625D041EB3DA1100450C4E /* libsqlite3.tbd */; };
+		38625D081EB3DA6A00450C4E /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625D071EB3DA6A00450C4E /* DataBaseManager.m */; };
+		386BD0171EE313F500E81D89 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387432E81EB5A17500CB32CD /* UserTableViewController.m */; };
+		386BD0181EE313F500E81D89 /* SQLiteManupulateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625D011EB3D01700450C4E /* SQLiteManupulateViewController.m */; };
+		386BD0191EE313F500E81D89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625CD41EB3CC0200450C4E /* ViewController.m */; };
+		386BD01A1EE313F500E81D89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625CD11EB3CC0200450C4E /* AppDelegate.m */; };
+		386BD01B1EE313F500E81D89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625CCE1EB3CC0200450C4E /* main.m */; };
+		386BD01C1EE313F500E81D89 /* UserDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 387432EB1EB632CE00CB32CD /* UserDetailTableViewCell.m */; };
+		386BD01D1EE313F500E81D89 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38625D071EB3DA6A00450C4E /* DataBaseManager.m */; };
+		386BD01F1EE313F500E81D89 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38625D041EB3DA1100450C4E /* libsqlite3.tbd */; };
+		386BD0211EE313F500E81D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38625CDB1EB3CC0200450C4E /* LaunchScreen.storyboard */; };
+		386BD0221EE313F500E81D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38625CD91EB3CC0200450C4E /* Assets.xcassets */; };
+		386BD0231EE313F500E81D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38625CD61EB3CC0200450C4E /* Main.storyboard */; };
+		387432E91EB5A17500CB32CD /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387432E81EB5A17500CB32CD /* UserTableViewController.m */; };
+		387432EC1EB632CE00CB32CD /* UserDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 387432EB1EB632CE00CB32CD /* UserDetailTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,17 @@
 		38625CEE1EB3CC0200450C4E /* DatabaseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabaseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38625CF21EB3CC0200450C4E /* DatabaseExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseExampleUITests.m; sourceTree = "<group>"; };
 		38625CF41EB3CC0200450C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38625D001EB3D01700450C4E /* SQLiteManupulateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManupulateViewController.h; sourceTree = "<group>"; };
+		38625D011EB3D01700450C4E /* SQLiteManupulateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManupulateViewController.m; sourceTree = "<group>"; };
+		38625D041EB3DA1100450C4E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		38625D061EB3DA6A00450C4E /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		38625D071EB3DA6A00450C4E /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		386BD0271EE313F500E81D89 /* Database DevApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Database DevApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		386BD0281EE313F500E81D89 /* Database-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Database-dev-Info.plist"; path = "/Volumes/Official/Practice/Trail APP/Objective c/DatabaseExample/Database-dev-Info.plist"; sourceTree = "<absolute>"; };
+		387432E71EB5A17500CB32CD /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
+		387432E81EB5A17500CB32CD /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
+		387432EA1EB632CE00CB32CD /* UserDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailTableViewCell.h; sourceTree = "<group>"; };
+		387432EB1EB632CE00CB32CD /* UserDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38625D051EB3DA1100450C4E /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,16 +103,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		386BD01E1EE313F500E81D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386BD01F1EE313F500E81D89 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		38625CC11EB3CC0200450C4E = {
 			isa = PBXGroup;
 			children = (
+				387432EA1EB632CE00CB32CD /* UserDetailTableViewCell.h */,
+				387432EB1EB632CE00CB32CD /* UserDetailTableViewCell.m */,
 				38625CCC1EB3CC0200450C4E /* DatabaseExample */,
 				38625CE61EB3CC0200450C4E /* DatabaseExampleTests */,
 				38625CF11EB3CC0200450C4E /* DatabaseExampleUITests */,
 				38625CCB1EB3CC0200450C4E /* Products */,
+				38625D031EB3DA1100450C4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +133,7 @@
 				38625CCA1EB3CC0200450C4E /* DatabaseExample.app */,
 				38625CE31EB3CC0200450C4E /* DatabaseExampleTests.xctest */,
 				38625CEE1EB3CC0200450C4E /* DatabaseExampleUITests.xctest */,
+				386BD0271EE313F500E81D89 /* Database DevApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,12 +143,19 @@
 			children = (
 				38625CD01EB3CC0200450C4E /* AppDelegate.h */,
 				38625CD11EB3CC0200450C4E /* AppDelegate.m */,
+				38625D061EB3DA6A00450C4E /* DataBaseManager.h */,
+				38625D071EB3DA6A00450C4E /* DataBaseManager.m */,
 				38625CD31EB3CC0200450C4E /* ViewController.h */,
 				38625CD41EB3CC0200450C4E /* ViewController.m */,
 				38625CD61EB3CC0200450C4E /* Main.storyboard */,
+				387432E71EB5A17500CB32CD /* UserTableViewController.h */,
+				387432E81EB5A17500CB32CD /* UserTableViewController.m */,
+				38625D001EB3D01700450C4E /* SQLiteManupulateViewController.h */,
+				38625D011EB3D01700450C4E /* SQLiteManupulateViewController.m */,
 				38625CD91EB3CC0200450C4E /* Assets.xcassets */,
 				38625CDB1EB3CC0200450C4E /* LaunchScreen.storyboard */,
 				38625CDE1EB3CC0200450C4E /* Info.plist */,
+				386BD0281EE313F500E81D89 /* Database-dev-Info.plist */,
 				38625CCD1EB3CC0200450C4E /* Supporting Files */,
 			);
 			path = DatabaseExample;
@@ -138,6 +185,14 @@
 				38625CF41EB3CC0200450C4E /* Info.plist */,
 			);
 			path = DatabaseExampleUITests;
+			sourceTree = "<group>";
+		};
+		38625D031EB3DA1100450C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38625D041EB3DA1100450C4E /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +251,23 @@
 			productReference = 38625CEE1EB3CC0200450C4E /* DatabaseExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		386BD0151EE313F500E81D89 /* Database DevApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386BD0241EE313F500E81D89 /* Build configuration list for PBXNativeTarget "Database DevApp" */;
+			buildPhases = (
+				386BD0161EE313F500E81D89 /* Sources */,
+				386BD01E1EE313F500E81D89 /* Frameworks */,
+				386BD0201EE313F500E81D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Database DevApp";
+			productName = DatabaseExample;
+			productReference = 386BD0271EE313F500E81D89 /* Database DevApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +294,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 38625CC91EB3CC0200450C4E;
 					};
+					386BD0151EE313F500E81D89 = {
+						DevelopmentTeam = 9G87A9TB83;
+					};
 				};
 			};
 			buildConfigurationList = 38625CC51EB3CC0200450C4E /* Build configuration list for PBXProject "DatabaseExample" */;
@@ -240,6 +315,7 @@
 				38625CC91EB3CC0200450C4E /* DatabaseExample */,
 				38625CE21EB3CC0200450C4E /* DatabaseExampleTests */,
 				38625CED1EB3CC0200450C4E /* DatabaseExampleUITests */,
+				386BD0151EE313F500E81D89 /* Database DevApp */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +345,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		386BD0201EE313F500E81D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386BD0211EE313F500E81D89 /* LaunchScreen.storyboard in Resources */,
+				386BD0221EE313F500E81D89 /* Assets.xcassets in Resources */,
+				386BD0231EE313F500E81D89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,9 +362,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387432E91EB5A17500CB32CD /* UserTableViewController.m in Sources */,
+				38625D021EB3D01700450C4E /* SQLiteManupulateViewController.m in Sources */,
 				38625CD51EB3CC0200450C4E /* ViewController.m in Sources */,
 				38625CD21EB3CC0200450C4E /* AppDelegate.m in Sources */,
 				38625CCF1EB3CC0200450C4E /* main.m in Sources */,
+				387432EC1EB632CE00CB32CD /* UserDetailTableViewCell.m in Sources */,
+				38625D081EB3DA6A00450C4E /* DataBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +385,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				38625CF31EB3CC0200450C4E /* DatabaseExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386BD0161EE313F500E81D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386BD0171EE313F500E81D89 /* UserTableViewController.m in Sources */,
+				386BD0181EE313F500E81D89 /* SQLiteManupulateViewController.m in Sources */,
+				386BD0191EE313F500E81D89 /* ViewController.m in Sources */,
+				386BD01A1EE313F500E81D89 /* AppDelegate.m in Sources */,
+				386BD01B1EE313F500E81D89 /* main.m in Sources */,
+				386BD01C1EE313F500E81D89 /* UserDetailTableViewCell.m in Sources */,
+				386BD01D1EE313F500E81D89 /* DataBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +532,12 @@
 		38625CF81EB3CC0200450C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9G87A9TB83;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DEVELOPEMENT=0",
+				);
 				INFOPLIST_FILE = DatabaseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Karthi.DatabaseExample;
@@ -440,8 +548,8 @@
 		38625CF91EB3CC0200450C4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9G87A9TB83;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPEMENT=0";
 				INFOPLIST_FILE = DatabaseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Karthi.DatabaseExample;
@@ -499,6 +607,36 @@
 			};
 			name = Release;
 		};
+		386BD0251EE313F500E81D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				DEVELOPMENT_TEAM = 9G87A9TB83;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DEVELOPEMENT=1",
+				);
+				INFOPLIST_FILE = "Database-dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karthi.DatabaseExample.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		386BD0261EE313F500E81D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				DEVELOPMENT_TEAM = 9G87A9TB83;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPEMENT=1";
+				INFOPLIST_FILE = "Database-dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karthi.DatabaseExample.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +656,7 @@
 				38625CF91EB3CC0200450C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38625CFA1EB3CC0200450C4E /* Build configuration list for PBXNativeTarget "DatabaseExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +665,7 @@
 				38625CFC1EB3CC0200450C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38625CFD1EB3CC0200450C4E /* Build configuration list for PBXNativeTarget "DatabaseExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +674,16 @@
 				38625CFF1EB3CC0200450C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386BD0241EE313F500E81D89 /* Build configuration list for PBXNativeTarget "Database DevApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386BD0251EE313F500E81D89 /* Debug */,
+				386BD0261EE313F500E81D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

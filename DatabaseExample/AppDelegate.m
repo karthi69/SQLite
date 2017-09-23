@@ -16,6 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+#if (DEVELOPEMENT == 1)
+    NSLog(@"developement Dev App");
+#else
+    NSLog(@"developement release app");
+#endif
     // Override point for customization after application launch.
     return YES;
 }

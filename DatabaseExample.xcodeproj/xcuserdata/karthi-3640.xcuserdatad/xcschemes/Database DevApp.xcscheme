@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38625CC91EB3CC0200450C4E"
-               BuildableName = "DatabaseExample.app"
-               BlueprintName = "DatabaseExample"
+               BlueprintIdentifier = "386BD0151EE313F500E81D89"
+               BuildableName = "Database DevApp.app"
+               BlueprintName = "Database DevApp"
                ReferencedContainer = "container:DatabaseExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38625CE21EB3CC0200450C4E"
-               BuildableName = "DatabaseExampleTests.xctest"
-               BlueprintName = "DatabaseExampleTests"
-               ReferencedContainer = "container:DatabaseExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38625CED1EB3CC0200450C4E"
-               BuildableName = "DatabaseExampleUITests.xctest"
-               BlueprintName = "DatabaseExampleUITests"
-               ReferencedContainer = "container:DatabaseExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38625CC91EB3CC0200450C4E"
-            BuildableName = "DatabaseExample.app"
-            BlueprintName = "DatabaseExample"
+            BlueprintIdentifier = "386BD0151EE313F500E81D89"
+            BuildableName = "Database DevApp.app"
+            BlueprintName = "Database DevApp"
             ReferencedContainer = "container:DatabaseExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38625CC91EB3CC0200450C4E"
-            BuildableName = "DatabaseExample.app"
-            BlueprintName = "DatabaseExample"
+            BlueprintIdentifier = "386BD0151EE313F500E81D89"
+            BuildableName = "Database DevApp.app"
+            BlueprintName = "Database DevApp"
             ReferencedContainer = "container:DatabaseExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38625CC91EB3CC0200450C4E"
-            BuildableName = "DatabaseExample.app"
-            BlueprintName = "DatabaseExample"
+            BlueprintIdentifier = "386BD0151EE313F500E81D89"
+            BuildableName = "Database DevApp.app"
+            BlueprintName = "Database DevApp"
             ReferencedContainer = "container:DatabaseExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
